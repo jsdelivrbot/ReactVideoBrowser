@@ -7,8 +7,6 @@ import VideoList from './components/video_list'
 import VideoDetail from './components/video_detail'
 const YOUTUBE_API_KEY = 'AIzaSyB6XRA73s2pTMgaH8Rn4AxeEXvGjkzl5Tw'
 
-
-
 class App extends React.Component {
   constructor(props) {
     super(props)
