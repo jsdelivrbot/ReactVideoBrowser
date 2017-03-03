@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
 const VideoDetail = ({video}) => {
   if (!video)
     return (<div className="video-detail col-md-8">Loading...</div>)
 
-  const videoId = video.id.videoId;
-  const youtubeUrl = `https://youtube.com/embed/${videoId}`;
+  const videoId = video.id.videoId
+  const youtubeUrl = `https://youtube.com/embed/${videoId}`
 
   return (
     <div className="video-detail col-md-8">
@@ -18,6 +18,6 @@ const VideoDetail = ({video}) => {
       </div>
     </div>
   )
-};
+}
 
-export default VideoDetail;
+export default VideoDetail

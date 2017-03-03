@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const VideoListItem = ({video, onVideoSelect}) => {
   return (
@@ -17,4 +17,4 @@ const VideoListItem = ({video, onVideoSelect}) => {
   )
 }
 
-export default VideoListItem;
+export default VideoListItem
